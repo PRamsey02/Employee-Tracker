@@ -9,8 +9,8 @@ require('dotenv').config()
 const connection = mysql.createConnection ({
     host: 'localhost',
     user: 'root',
-    password: process.env.MYSQL_PASSWORD,
-    // password: '',
+    // password: process.env.MYSQL_PASSWORD,
+    password: 'password',
     database: 'employee_db'
 });
 
@@ -197,7 +197,7 @@ addRole = () => {
         name: 'salary',
         message: "What is the salary of this role?",
         validate: addSalary => {
-          if (isNAN(addSalary)) {
+          if ((addSalary)) {
               return true;
           } else {
               console.log('Please enter a salary');
