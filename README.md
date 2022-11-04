@@ -1,4 +1,4 @@
-#  ![Employee Tracker](https://github.com/PRamsey02/Employee-Tracker)
+#  [Employee Tracker](https://github.com/PRamsey02/Employee-Tracker)
   ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
   ## Description
   A command-line application that allows a company to manage their Employees, Roles, and Departments. As well as adding and deleting them. This application was created using Node.js, Inquirer, and MySQL.
